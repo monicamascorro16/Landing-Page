@@ -1,0 +1,40 @@
+body {
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+li {
+    display: inline;
+    list-style: none;
+    margin: 10px;
+    font-size: 14px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px 0;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    
+}
+.hero-main {
+    width: 500px;
+    margin-bottom: 100px;
+}
+.hero-img {
+    width: 400px;
+    height: 150px;
+    background-color: #ffff;
+    opacity: 0.5;
+    align-items: flex-end
+}
